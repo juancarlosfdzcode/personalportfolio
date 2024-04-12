@@ -221,6 +221,10 @@ section {
   #timeline ul li.show:before {
     background: var(--secondary-color);
   }
+
+span {
+    white-space: nowrap;
+}
   
   @media (max-width: 900px) {
     #timeline ul li > div,
@@ -346,6 +350,10 @@ section {
     }
   }
 
-span {
-    white-space: nowrap;
+@media (max-width: 320px) {
+    
+    span {
+      white-space: wrap;
+    }
 }
+
