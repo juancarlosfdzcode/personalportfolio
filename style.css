@@ -656,6 +656,31 @@ span {
     }
 }
 
+@media (max-width: 375px) {
+    
+    .home-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        margin-top: -5.55rem;
+        margin-left: -1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .home-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        height: 60vh;
+        margin-top: -5.55rem;
+        margin-left: -1rem;
+    }
+}
+
 .multiple-text {
     color: var(--co);
 }
