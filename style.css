@@ -636,7 +636,7 @@ span {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
     html {
         font-size: 50%;
@@ -653,6 +653,18 @@ span {
 
     .header {
         width: 100vw;
+    }
+}
+
+@media (max-width: 410px) {
+    
+    .home-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        margin-top: -0.8rem;
+        margin-left: 1rem;
     }
 }
 
