@@ -357,13 +357,17 @@ span {
     }
 }
 
+@media (max-width: 400px) {
+
+    .header {
+      width: 90vw;
+    }
+}
+
 @media (max-width: 320px) {
     
     span {
       white-space: wrap;
-    }
-    .header {
-      width: 90vw;
     }
 }
 
