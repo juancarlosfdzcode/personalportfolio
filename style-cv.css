@@ -362,7 +362,8 @@ span {
     span {
       white-space: wrap;
     }
-    body {
-        width: 100vw;
+    .header {
+      width: 90vw;
+    }
 }
 
