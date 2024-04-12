@@ -350,10 +350,19 @@ span {
     }
   }
 
+@media (max-width: 450px) {
+
+    .header {
+      width: 110vw;
+    }
+}
+
 @media (max-width: 320px) {
     
     span {
       white-space: wrap;
     }
+    body {
+        width: 100vw;
 }
 
