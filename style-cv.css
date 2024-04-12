@@ -353,7 +353,7 @@ span {
 @media (max-width: 450px) {
 
     .header {
-      width: 110vw;
+      width: 100vw;
     }
 }
 
