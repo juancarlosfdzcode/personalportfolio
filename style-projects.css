@@ -260,6 +260,10 @@ span {
     height: 25vw;
 }
 
+.blog-img img:hover{
+    transform: scale(1.05);
+}
+
 .blog .title h2 {
     color: var(--main-color);
 }
