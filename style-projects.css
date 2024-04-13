@@ -403,5 +403,10 @@ span {
     .blog-img img {
         height: 60vw;
     }
+
+    .header {
+      width: 100vw;
+      padding: 2rem 3%;
+    }
     
 }
