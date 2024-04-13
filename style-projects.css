@@ -370,6 +370,10 @@ span {
 
 @media (max-width: 768px) {
 
+    html {
+        font-size: 50%;
+    }
+
     #menu-icon {
         display: block;
     }
