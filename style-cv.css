@@ -401,3 +401,13 @@ span {
   font-size: 2.4rem;
   color: var(--snd-bg-color);
 }
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.span-dark {
+  color: var(--main-color);
+}
+
