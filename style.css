@@ -410,6 +410,12 @@ span {
     cursor: pointer;
 }
 
+#form-message {
+    font-size: 2rem;
+    padding-bottom: 1.3rem;
+    font-weight: 400;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
