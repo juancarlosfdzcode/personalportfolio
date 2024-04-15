@@ -54,4 +54,18 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contact-form');
+    const formMessage = document.getElementById('form-message');
+
+    contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        formMessage.textContent = "Tu mensaje ha llegado más rápido que el tiempo que tarda Python en imprimir '¡Hola, mundo!' 🚀🐍";
+
+        contactForm.reset();
+    });
+});
+
+
 
