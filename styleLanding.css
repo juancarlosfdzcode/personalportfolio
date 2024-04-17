@@ -481,6 +481,25 @@ span {
     display: block;
 }
 
+.multiple-text {
+    color: var(--co);
+}
+
+.landing {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.landing h1 {
+    font-size: 4rem;
+    padding-right: 10rem;
+}
+
+.landing h2 {
+    font-size: 2.3rem;
+}
+
 @media (max-width: 1800px) {
     
     .image-container {
@@ -680,17 +699,22 @@ span {
         font-size: 50%;
 
     }
-
-    .contact form .input-box input {
-        width: 100vw;
-    }
-
-    .btn-proyectos {
-        width: 80vw;
-    }
-
+    
     .header {
         width: 100vw;
+    }
+
+    .landing h1 {
+        font-size: 2.7rem;
+        padding-right: 8rem;
+    }
+    
+    .landing h2 {
+        font-size: 2.2rem;
+    }
+    
+    .landing i {
+        font-size: 12rem;
     }
 }
 
@@ -708,13 +732,17 @@ span {
 
 @media (max-width: 375px) {
     
-    .home-img img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 85vw;
-        margin-top: -5.55rem;
-        margin-left: -1rem;
+    .landing h1 {
+        font-size: 2.5rem;
+        padding-right: 8rem;
+    }
+    
+    .landing h2 {
+        font-size: 2rem;
+    }
+    
+    .landing i {
+        font-size: 10rem;
     }
 }
 
@@ -729,25 +757,6 @@ span {
         margin-top: -5.73rem;
         margin-left: -1rem;
     }
-}
-
-.multiple-text {
-    color: var(--co);
-}
-
-.landing {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.landing h1 {
-    font-size: 4rem;
-    padding-right: 10rem;
-}
-
-.landing h2 {
-    font-size: 2.3rem;
 }
 
 .landing i {
