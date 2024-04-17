@@ -229,6 +229,7 @@ span {
     flex-wrap: wrap;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
 }
 
 .services-container .services-box {
