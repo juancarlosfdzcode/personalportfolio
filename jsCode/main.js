@@ -47,7 +47,7 @@ ScrollReveal().reveal('.home-contact h1, .about-img', {origin:'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', {origin:'right'});
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Finanzas', 'Contabilidad', 'Operaciones', 'Datos', 'Python','Data Analysis', 'Cloud Computing'],
+    strings: ['Analytics Engineering', 'Business Intelligence', 'Data Engineering', 'Automation', 'Python','Data Analysis', 'Cloud Computing'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
